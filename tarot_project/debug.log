@@ -1,0 +1,1661 @@
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py", line 11, in home
+    return HttpResponse(JsonResponse(card))
+  File "/usr/local/lib/python3.8/dist-packages/django/http/response.py", line 646, in __init__
+    raise TypeError(
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py", line 11, in home
+    return HttpResponse(JsonResponse(card))
+  File "/usr/local/lib/python3.8/dist-packages/django/http/response.py", line 646, in __init__
+    raise TypeError(
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarot_project/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarot_project/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarot_project/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+/home/nick/Desktop/Project/shree/tarot_project/tarot_project/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarot_project/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarot_project/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarot_project/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /api/getlist
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/getlist
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py", line 12, in list
+    return JsonResponse(url)
+  File "/usr/local/lib/python3.8/dist-packages/django/http/response.py", line 646, in __init__
+    raise TypeError(
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/getlist
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py", line 13, in list
+    return response(url)
+TypeError: 'module' object is not callable
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/getlist
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py", line 11, in get
+    queryset = TarotCard.objects.all(number=num)
+NameError: name 'num' is not defined
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/getlist
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py", line 12, in get
+    queryset = TarotCard.objects.all(number=num)
+TypeError: all() got an unexpected keyword argument 'number'
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/getlist
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py", line 12, in get
+    queryset = TarotCard.objects.filter(number=num)[1:-1]
+  File "/usr/local/lib/python3.8/dist-packages/django/db/models/query.py", line 341, in __getitem__
+    raise ValueError("Negative indexing is not supported.")
+ValueError: Negative indexing is not supported.
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/getlist
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py", line 14, in get
+    return JsonResponse(serializer.data)
+  File "/usr/local/lib/python3.8/dist-packages/django/http/response.py", line 646, in __init__
+    raise TypeError(
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/getlist
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py", line 15, in get
+    return Response(json.dump(serializer.data))
+TypeError: dump() missing 1 required positional argument: 'fp'
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /api/listtarot
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/getlist
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py", line 15, in get
+    return JsonResponse(json.dumps(serializer.data),content_type='application/json')
+  File "/usr/local/lib/python3.8/dist-packages/django/http/response.py", line 646, in __init__
+    raise TypeError(
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+/home/nick/Desktop/Project/shree/tarot_project/tarot_project/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarot_project/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarot_project/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py", line 25, in home
+    return render(request,'home.html')
+  File "/usr/local/lib/python3.8/dist-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.8/dist-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python3.8/dist-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: home.html
+/home/nick/Desktop/Project/shree/tarot_project/tarot_project/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /contact
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /contact/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py", line 31, in contact
+    return request(request,'contact.html')
+TypeError: 'WSGIRequest' object is not callable
+Not Found: /about.html
+Not Found: /about/about/
+Not Found: /about/about/
+Not Found: /about/about/
+Not Found: /about/about/
+Internal Server Error: /contact/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py", line 31, in contact
+    return request(request,'contact.html')
+TypeError: 'WSGIRequest' object is not callable
+Internal Server Error: /contact/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py", line 31, in contact
+    return request(request,'contact.html')
+TypeError: 'WSGIRequest' object is not callable
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /reading/
+Not Found: /reading/
+Not Found: /home
+Not Found: /home
+Not Found: /home
+Not Found: /home
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /reading/
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Not Found: /reading/
+Not Found: /reading/
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /reading/
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /...
+Not Found: /...
+Not Found: /...
+Not Found: /...
+Not Found: /...
+Not Found: /...
+Not Found: /...
+Not Found: /...
+Not Found: /...
+Not Found: /...
+Not Found: /...
+Not Found: /...
+Not Found: /...
+Not Found: /...
+Not Found: /...
+Not Found: /...
+Not Found: /...
+Not Found: /...
+Not Found: /...
+Not Found: /favicon.ico
+Not Found: /...
+Not Found: /favicon.ico
+Not Found: /...
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Not Found: /...
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+/home/nick/Desktop/Project/shree/tarot_project/tarot_project/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarot_project/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/getlist
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py", line 16, in get
+    return JsonResponse(serializer.data,content_type='application/json')
+  File "/usr/local/lib/python3.8/dist-packages/django/http/response.py", line 646, in __init__
+    raise TypeError(
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /reading/img/back.jpg
+Not Found: /reading/image2.jpg
+Not Found: /reading/image3.jpg
+Not Found: /favicon.ico
+Not Found: /reading/image3.jpg
+Not Found: /reading/img/back.jpg
+Not Found: /reading/image2.jpg
+Not Found: /favicon.ico
+Not Found: /reading/image2.jpg
+Not Found: /reading/img/back.jpg
+Not Found: /reading/image3.jpg
+Not Found: /reading/image2.jpg
+Not Found: /reading/img/back.jpg
+Not Found: /reading/image3.jpg
+Not Found: /reading/image2.jpg
+Not Found: /reading/image3.jpg
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/urls.py changed, reloading.
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /temp/www.google.com
+Not Found: /temp/www.google.com
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /temp/www.google.com
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Not Found: /temp/www.google.com
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+/home/nick/Desktop/Project/shree/tarot_project/tarot_project/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/api/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /glist/
+/home/nick/Desktop/Project/shree/tarot_project/api/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /api/getlist/
+Not Found: /api/getlist/
+Not Found: /favicon.ico
+/home/nick/Desktop/Project/shree/tarot_project/api/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+/home/nick/Desktop/Project/shree/tarot_project/api/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /temp/
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/api/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/getlist/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+TypeError: __init__() takes 1 positional argument but 2 were given
+Not Found: /favicon.ico
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/api/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/api/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/getlist/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py", line 16, in get
+    return Response(serializer.data)
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/serializers.py", line 555, in data
+    ret = super().data
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/serializers.py", line 522, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/fields.py", line 915, in to_representation
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'DeferredAttribute'
+Internal Server Error: /api/getlist/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py", line 16, in get
+    return Response(serializer.data)
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/serializers.py", line 555, in data
+    ret = super().data
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/serializers.py", line 522, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/fields.py", line 915, in to_representation
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'DeferredAttribute'
+Internal Server Error: /api/getlist/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py", line 16, in get
+    return Response(serializer.data)
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/serializers.py", line 555, in data
+    ret = super().data
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/serializers.py", line 522, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/fields.py", line 915, in to_representation
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'DeferredAttribute'
+Internal Server Error: /api/getlist/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py", line 16, in get
+    return Response(serializer.data)
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/serializers.py", line 555, in data
+    ret = super().data
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/serializers.py", line 522, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/fields.py", line 915, in to_representation
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'DeferredAttribute'
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/getlist/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py", line 14, in get
+    queryset = TarotCard.objects.all(number=num)
+TypeError: all() got an unexpected keyword argument 'number'
+Internal Server Error: /api/getlist/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py", line 14, in get
+    queryset = TarotCard.objects.all(number=num)
+TypeError: all() got an unexpected keyword argument 'number'
+Internal Server Error: /api/getlist/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py", line 14, in get
+    queryset = TarotCard.objects.all(number=num)
+TypeError: all() got an unexpected keyword argument 'number'
+Internal Server Error: /api/getlist/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py", line 14, in get
+    queryset = TarotCard.objects.all(number=num)
+TypeError: all() got an unexpected keyword argument 'number'
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+/home/nick/Desktop/Project/shree/tarot_project/api/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/glist/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py", line 49, in glist
+    "isStudent": false
+NameError: name 'false' is not defined
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/glist/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/usr/local/lib/python3.8/dist-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/response.py", line 55, in rendered_content
+    assert renderer, ".accepted_renderer not set on Response"
+AssertionError: .accepted_renderer not set on Response
+Internal Server Error: /api/glist/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/usr/local/lib/python3.8/dist-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/response.py", line 55, in rendered_content
+    assert renderer, ".accepted_renderer not set on Response"
+AssertionError: .accepted_renderer not set on Response
+Internal Server Error: /api/glist/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/usr/local/lib/python3.8/dist-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/response.py", line 55, in rendered_content
+    assert renderer, ".accepted_renderer not set on Response"
+AssertionError: .accepted_renderer not set on Response
+Internal Server Error: /api/glist/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/usr/local/lib/python3.8/dist-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/response.py", line 55, in rendered_content
+    assert renderer, ".accepted_renderer not set on Response"
+AssertionError: .accepted_renderer not set on Response
+Internal Server Error: /api/glist/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/usr/local/lib/python3.8/dist-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/response.py", line 55, in rendered_content
+    assert renderer, ".accepted_renderer not set on Response"
+AssertionError: .accepted_renderer not set on Response
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/getlist/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py", line 16, in get
+    return Response(serializer.data)
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/serializers.py", line 768, in data
+    ret = super().data
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/serializers.py", line 686, in to_representation
+    return [
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/serializers.py", line 687, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/serializers.py", line 507, in to_representation
+    for field in fields:
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/serializers.py", line 368, in _readable_fields
+    for field in self.fields.values():
+  File "/usr/local/lib/python3.8/dist-packages/django/utils/functional.py", line 49, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/serializers.py", line 356, in fields
+    for key, value in self.get_fields().items():
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/serializers.py", line 1052, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/serializers.py", line 1106, in get_field_names
+    raise TypeError(
+TypeError: The `fields` option must be a list or tuple or "__all__". Got set.
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/glist/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py", line 66, in glist
+    return JsonResponse(data)
+  File "/usr/local/lib/python3.8/dist-packages/django/http/response.py", line 646, in __init__
+    raise TypeError(
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+Internal Server Error: /api/glist/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py", line 66, in glist
+    return JsonResponse(data)
+  File "/usr/local/lib/python3.8/dist-packages/django/http/response.py", line 646, in __init__
+    raise TypeError(
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+Internal Server Error: /api/glist/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py", line 66, in glist
+    return JsonResponse(data)
+  File "/usr/local/lib/python3.8/dist-packages/django/http/response.py", line 646, in __init__
+    raise TypeError(
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+Internal Server Error: /api/glist/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py", line 66, in glist
+    return JsonResponse(data)
+  File "/usr/local/lib/python3.8/dist-packages/django/http/response.py", line 646, in __init__
+    raise TypeError(
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+Internal Server Error: /api/glist/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py", line 66, in glist
+    return JsonResponse(data)
+  File "/usr/local/lib/python3.8/dist-packages/django/http/response.py", line 646, in __init__
+    raise TypeError(
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+Internal Server Error: /api/glist/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py", line 66, in glist
+    return JsonResponse(data)
+  File "/usr/local/lib/python3.8/dist-packages/django/http/response.py", line 646, in __init__
+    raise TypeError(
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+Internal Server Error: /api/glist/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py", line 66, in glist
+    return JsonResponse(data)
+  File "/usr/local/lib/python3.8/dist-packages/django/http/response.py", line 646, in __init__
+    raise TypeError(
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+Internal Server Error: /api/glist/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py", line 66, in glist
+    return JsonResponse(data)
+  File "/usr/local/lib/python3.8/dist-packages/django/http/response.py", line 646, in __init__
+    raise TypeError(
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+Internal Server Error: /api/glist/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py", line 66, in glist
+    return JsonResponse(data)
+  File "/usr/local/lib/python3.8/dist-packages/django/http/response.py", line 646, in __init__
+    raise TypeError(
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/glist/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py", line 67, in glist
+    return JsonResponse(data)
+  File "/usr/local/lib/python3.8/dist-packages/django/http/response.py", line 646, in __init__
+    raise TypeError(
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/glist/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py", line 67, in glist
+    return JsonResponse(data)
+  File "/usr/local/lib/python3.8/dist-packages/django/http/response.py", line 646, in __init__
+    raise TypeError(
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+Internal Server Error: /api/glist/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py", line 67, in glist
+    return JsonResponse(data)
+  File "/usr/local/lib/python3.8/dist-packages/django/http/response.py", line 646, in __init__
+    raise TypeError(
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+Internal Server Error: /api/glist/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py", line 67, in glist
+    return JsonResponse(data)
+  File "/usr/local/lib/python3.8/dist-packages/django/http/response.py", line 646, in __init__
+    raise TypeError(
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+Internal Server Error: /api/glist/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py", line 67, in glist
+    return JsonResponse(data)
+  File "/usr/local/lib/python3.8/dist-packages/django/http/response.py", line 646, in __init__
+    raise TypeError(
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+Internal Server Error: /api/glist/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py", line 67, in glist
+    return JsonResponse(data)
+  File "/usr/local/lib/python3.8/dist-packages/django/http/response.py", line 646, in __init__
+    raise TypeError(
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+Internal Server Error: /api/glist/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py", line 67, in glist
+    return JsonResponse(data)
+  File "/usr/local/lib/python3.8/dist-packages/django/http/response.py", line 646, in __init__
+    raise TypeError(
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+Internal Server Error: /api/glist/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py", line 67, in glist
+    return JsonResponse(data)
+  File "/usr/local/lib/python3.8/dist-packages/django/http/response.py", line 646, in __init__
+    raise TypeError(
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/glist/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/usr/local/lib/python3.8/dist-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/response.py", line 55, in rendered_content
+    assert renderer, ".accepted_renderer not set on Response"
+AssertionError: .accepted_renderer not set on Response
+Internal Server Error: /api/glist/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/usr/local/lib/python3.8/dist-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/response.py", line 55, in rendered_content
+    assert renderer, ".accepted_renderer not set on Response"
+AssertionError: .accepted_renderer not set on Response
+Internal Server Error: /api/glist/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/usr/local/lib/python3.8/dist-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/response.py", line 55, in rendered_content
+    assert renderer, ".accepted_renderer not set on Response"
+AssertionError: .accepted_renderer not set on Response
+Using selector: EpollSelector
+Using selector: EpollSelector
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/glist/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/usr/local/lib/python3.8/dist-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/response.py", line 55, in rendered_content
+    assert renderer, ".accepted_renderer not set on Response"
+AssertionError: .accepted_renderer not set on Response
+Internal Server Error: /api/glist/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/usr/local/lib/python3.8/dist-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/response.py", line 55, in rendered_content
+    assert renderer, ".accepted_renderer not set on Response"
+AssertionError: .accepted_renderer not set on Response
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/glist/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/usr/local/lib/python3.8/dist-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/nick/.local/lib/python3.8/site-packages/rest_framework/response.py", line 55, in rendered_content
+    assert renderer, ".accepted_renderer not set on Response"
+AssertionError: .accepted_renderer not set on Response
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/glist/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py", line 59, in glist
+    "number":f"{data.number}",
+AttributeError: 'QuerySet' object has no attribute 'number'
+Internal Server Error: /api/glist/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py", line 59, in glist
+    "number":f"{data.number}",
+AttributeError: 'QuerySet' object has no attribute 'number'
+Internal Server Error: /api/glist/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py", line 59, in glist
+    "number":f"{data.number}",
+AttributeError: 'QuerySet' object has no attribute 'number'
+Internal Server Error: /api/glist/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py", line 59, in glist
+    "number":f"{data.number}",
+AttributeError: 'QuerySet' object has no attribute 'number'
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/glist/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py", line 59, in glist
+    "number":{data.number},
+AttributeError: 'QuerySet' object has no attribute 'number'
+Internal Server Error: /api/glist/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py", line 59, in glist
+    "number":{data.number},
+AttributeError: 'QuerySet' object has no attribute 'number'
+Internal Server Error: /api/glist/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py", line 59, in glist
+    "number":{data.number},
+AttributeError: 'QuerySet' object has no attribute 'number'
+Internal Server Error: /api/glist/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py", line 59, in glist
+    "number":{data.number},
+AttributeError: 'QuerySet' object has no attribute 'number'
+Internal Server Error: /api/glist/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py", line 59, in glist
+    "number":{data.number},
+AttributeError: 'QuerySet' object has no attribute 'number'
+Internal Server Error: /api/glist/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py", line 59, in glist
+    "number":{data.number},
+AttributeError: 'QuerySet' object has no attribute 'number'
+Using selector: EpollSelector
+Using selector: EpollSelector
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /reading1/aceofcups.jpg
+Not Found: /reading1/fiveofpentacles.jpg
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/nick/Desktop/Project/shree/tarot_project/tarotapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /reading1/
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico

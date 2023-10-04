@@ -55,7 +55,7 @@ def astrology(request):
 
 def glist(request):
     num=randint(0,77)
-    data = TarotCard.objects.filter(number=num)
+    data = TarotCard.objects.filter(number=0)
     for i in data:
         number=i.number
         name=i.name

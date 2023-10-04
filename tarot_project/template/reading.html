@@ -15,6 +15,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         /* Custom CSS for flipping card */
+        body {
+          background-color: #186b64a1; /* Replace with your desired color code */
+        }
         .flip-card {
             perspective: 1000px;
         }
@@ -22,7 +25,7 @@
         .flip-card-inner {
             width: 891px;
             height: 30px;
-            right: 250px;
+            right: 180px;
             position: relative;
             transform-style: preserve-3d;
             transition: transform 2.5s;
@@ -47,6 +50,7 @@
         }
         h5{
             text-align: center;
+            font-weight: bold;
         }
         h6{
             text-align: right;
@@ -60,6 +64,19 @@
             overflow: auto;
         }
         
+        h4{
+            float: right;
+            padding-top: 100pt;
+            padding-right: 40pt;
+            max-width: 510px;
+            overflow: auto;
+            font-weight: bold;
+            font-family: 'Comic Sans MS', cursive;
+            font-size: 50px;
+            text-align: center  ;
+        }
+
+
     </style>
 </head>
 <body>
@@ -73,7 +90,8 @@
                             <div class="card">
                                 <div class="card-body">
                                     <h5 class="card-title" text-align:center >Think about your question then click on card</h5>
-                                    <img src="/static/img/back.jpg" width = "250" height = "430"/>
+                                    <h4>What's in your Mind ??</h4>
+                                    <img src="/static/img/back.jpg" width = "290" height = "430"/>
                                 </div>
                             </div>
                         </div>

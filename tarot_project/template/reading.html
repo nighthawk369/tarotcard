@@ -55,7 +55,9 @@
         }
         p{
             float: right;
-            padding-right: 180pt;
+            padding-right: 40pt;
+            max-width: 510px;
+            overflow: auto;
         }
         
     </style>
@@ -106,7 +108,7 @@
                         // Update the back card content with the fetched image name
                         imageContainer.innerHTML = `<h5 class="card-title">${data.name}</h5>
                         <h6>Meaning</h6>
-                        <p>${data.meaning} ksjfkdljfl <br> jdklfjsdlfjsdlfj <br> fjdsjhfkdjs</p>
+                        <p>${data.meaning}</p>
                         <img src="/static/img/${data.image_url}" width = "250" height = "430"/>`;
                     })
                     .catch(error => console.error(error));
